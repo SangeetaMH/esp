@@ -18,6 +18,7 @@ public class Departmentcontroller {
 	private Department AddDepartmentdetials( @RequestBody Department dep,@PathVariable int id) throws InvalidException 
 	{
 		System.out.println("hii");
+		System.out.println("hello");
 		return service.addDepartment(dep, id);
 		
 	}
